@@ -1,5 +1,5 @@
 {
-  "name": "data-structures",
+  "name": "binary-search-tree",
   "version": "1.0.0",
   "description": "learn about binary search trees through implementation and simulation",
   "scripts": {
