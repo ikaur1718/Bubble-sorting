@@ -21,7 +21,7 @@
 
 // For a tree of over 4000 nodes, we will find the minimum node in about 12 jumps. That's way better than an unsorted array or linked list, for which we'd have to check all 4096 values to find out which is the minimum. Unfortunately, this is the ideal case, and depends on the subtrees all having roughly equal numbers of left and right descendants ("balanced") — in the worst case, a "degenerate" tree is just a linked list.
 
-describe('binarySearchTree', () => {
+describe('BinarySearchTree', () => {
   let tree
   let testArr
   const valuesToInsert = [15, 25, 5, 17, 21, 28, 0, 14, 50, 1, 45, 13, 12, 11, 30, 35, 33, 31, 34]
